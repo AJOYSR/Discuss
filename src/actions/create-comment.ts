@@ -1,2 +1,5 @@
-"use server";
-export const createComment = async () => {};
+'use server';
+
+export async function createComment() {
+  // TODO: revalidate post show page
+}
